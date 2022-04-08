@@ -2,3 +2,8 @@
   margin: 0;
   padding: 0;
 }
+
+.locationMarker-icon{
+  font-size: 2rem;
+  color: red;
+}
