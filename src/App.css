@@ -7,3 +7,19 @@
   font-size: 2rem;
   color: red;
 }
+
+.LocationInfo-container{
+  position: absolute;
+  color: black;
+  top: 50px;
+  right: 20px;
+  width: 400px;
+  min-height: 100px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.LocationInfo-container ul{
+  list-style: none;
+}
