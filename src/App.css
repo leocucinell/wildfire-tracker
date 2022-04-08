@@ -3,6 +3,18 @@
   padding: 0;
 }
 
+.header-container{
+  background-color: rgb(203, 53, 53);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.header-container h2{
+  margin: 0;
+}
+
 .locationMarker-icon{
   font-size: 2rem;
   color: red;

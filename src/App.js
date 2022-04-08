@@ -2,7 +2,7 @@ import './App.css';
 import { useState, useEffect } from 'react';
 import nasa from './api/nasa';
 
-
+import Header from './components/Header';
 import Map from './components/Map';
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
 
   return (
     <div className="App">
+      <Header />
       {
         isLoading ? 
         <h1>Loading...</h1>
